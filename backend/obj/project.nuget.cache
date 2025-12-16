@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "MmL4bgkYREK9CohDtJX+Oh3V0uKK/LaZ3r4sNLiMJKgxfIHh6nC6bP5BDWF5RXSl1GDQ4suWPCM+YamhiXrsAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mifta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
