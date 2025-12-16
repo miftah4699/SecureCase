@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MmL4bgkYREK9CohDtJX+Oh3V0uKK/LaZ3r4sNLiMJKgxfIHh6nC6bP5BDWF5RXSl1GDQ4suWPCM+YamhiXrsAg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+  "dgSpecHash": "KEa6RRHS1+SwJAQe1/gL1ObNYLuUrDjUjC5EfmPf14FZLeesO0lP4MWHlnnrIV/ua98tmBHgZQdfVQIDepo9UA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mifta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\mifta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -12,5 +12,15 @@
     "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
     "C:\\Users\\mifta\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

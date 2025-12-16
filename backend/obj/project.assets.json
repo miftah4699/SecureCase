@@ -455,6 +455,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj",
       "Microsoft.AspNetCore.OpenApi >= 8.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -465,11 +466,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+      "projectUniqueName": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
       "projectName": "SecureCase.Api",
-      "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+      "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
       "packagesPath": "C:\\Users\\mifta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\obj\\",
+      "outputPath": "C:\\Users\\mifta\\SecureCase\\backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mifta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -485,7 +486,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj": {
+              "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -529,5 +534,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

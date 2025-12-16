@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj": {}
+    "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj": {
+    "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+        "projectUniqueName": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
         "projectName": "SecureCase.Api",
-        "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\SecureCase.Api.csproj",
+        "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
         "packagesPath": "C:\\Users\\mifta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api\\obj\\",
+        "outputPath": "C:\\Users\\mifta\\SecureCase\\backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mifta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,7 +27,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj": {
+                "projectPath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
