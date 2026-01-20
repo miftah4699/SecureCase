@@ -2,6 +2,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SecureCase.Application\SecureCase.Application.csproj" />
+	<ProjectReference Include="..\SecureCase.Domain\SecureCase.Domain.csproj" />
+
   </ItemGroup>
 
   <PropertyGroup>

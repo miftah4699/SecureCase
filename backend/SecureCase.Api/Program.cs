@@ -1,7 +1,14 @@
+
+using SecureCase.Application.Interface;
+using SecureCase.Application.UseCases;
+using SecureCase.Infrastructure.Repositories;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<RegisterUser>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

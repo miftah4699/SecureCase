@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KEa6RRHS1+SwJAQe1/gL1ObNYLuUrDjUjC5EfmPf14FZLeesO0lP4MWHlnnrIV/ua98tmBHgZQdfVQIDepo9UA==",
+  "dgSpecHash": "zkKJmaTCqKgLLmqEtOeuT+6C2oIUXW+rn5ztEpay14Aj5tP1cwzkqR9Cyj4xql0tFo51AgNqTqDH2oyWs2OQtg==",
   "success": false,
-  "projectFilePath": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Api.csproj",
+  "projectFilePath": "C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mifta\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.0\\microsoft.aspnetcore.openapi.8.0.0.nupkg.sha512",
     "C:\\Users\\mifta\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -16,8 +16,26 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\mifta\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Domain\\SecureCase.Domain.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Domain\\SecureCase.Domain.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Infrastructure\\SecureCase.Infrastructure.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Infrastructure\\SecureCase.Infrastructure.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\mifta\\source\\repos\\SecureCase\\backend\\SecureCase.Application\\SecureCase.Application.csproj",
       "targetGraphs": [
         "net8.0"
       ]
